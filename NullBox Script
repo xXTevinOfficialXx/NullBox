@@ -1,0 +1,538 @@
+-- Farewell Infortality.
+-- Version: 2.82
+-- Instances:
+local Chat = Instance.new("ScreenGui")
+local fgAPGdfhioj = Instance.new("Frame")
+local ogfgioAFi = Instance.new("TextButton")
+local pGiwufAfg = Instance.new("TextButton")
+local GNuileg = Instance.new("Frame")
+local ANFGAJEIu = Instance.new("TextButton")
+local AGOIjhrgiu = Instance.new("TextButton")
+local VMAGSu = Instance.new("TextButton")
+local Pglkisd = Instance.new("TextButton")
+local AGiojdfh = Instance.new("Frame")
+local cvxbesGIo = Instance.new("TextButton")
+local agEBHgyg = Instance.new("TextButton")
+local vmoigjg = Instance.new("TextButton")
+local bnzdghi = Instance.new("TextButton")
+local oneGIOGJHSg = Instance.new("TextButton")
+local godLOLGKAIOFGk = Instance.new("TextButton")
+local Ngmdhi = Instance.new("TextButton")
+local GiornoGiovanna = Instance.new("Frame")
+local cvxbesGIo_2 = Instance.new("TextButton")
+local gay = Instance.new("TextButton")
+--Properties:
+Chat.Name = "Chat"
+Chat.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Chat.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Chat.ResetOnSpawn = false
+
+fgAPGdfhioj.Name = "fgAPGdfhioj"
+fgAPGdfhioj.Parent = Chat
+fgAPGdfhioj.Active = true
+fgAPGdfhioj.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+fgAPGdfhioj.BorderSizePixel = 0
+fgAPGdfhioj.Position = UDim2.new(0.0589849018, 0, 0.187251002, 0)
+fgAPGdfhioj.Selectable = true
+fgAPGdfhioj.Size = UDim2.new(0, 218, 0, 110)
+
+ogfgioAFi.Name = "ogfgioAFi"
+ogfgioAFi.Parent = fgAPGdfhioj
+ogfgioAFi.BackgroundColor3 = Color3.new(0.490196, 0.490196, 0.490196)
+ogfgioAFi.BorderSizePixel = 0
+ogfgioAFi.Position = UDim2.new(0.0412844047, 0, 0.111387171, 0)
+ogfgioAFi.Size = UDim2.new(0, 200, 0, 23)
+ogfgioAFi.Font = Enum.Font.SourceSans
+ogfgioAFi.Text = "Team Changer"
+ogfgioAFi.TextColor3 = Color3.new(0, 0, 0)
+ogfgioAFi.TextSize = 14
+
+pGiwufAfg.Name = "pGiwufAfg"
+pGiwufAfg.Parent = fgAPGdfhioj
+pGiwufAfg.BackgroundColor3 = Color3.new(0.490196, 0.490196, 0.490196)
+pGiwufAfg.BorderSizePixel = 0
+pGiwufAfg.Position = UDim2.new(0.0412844047, 0, 0.318705678, 0)
+pGiwufAfg.Size = UDim2.new(0, 200, 0, 23)
+pGiwufAfg.Font = Enum.Font.SourceSans
+pGiwufAfg.Text = "Misc"
+pGiwufAfg.TextColor3 = Color3.new(0, 0, 0)
+pGiwufAfg.TextSize = 14
+
+GNuileg.Name = "GNuileg"
+GNuileg.Parent = fgAPGdfhioj
+GNuileg.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+GNuileg.BorderSizePixel = 0
+GNuileg.Position = UDim2.new(1, 0, 0, 0)
+GNuileg.Size = UDim2.new(0, 228, 0, 198)
+GNuileg.Visible = false
+
+ANFGAJEIu.Name = "ANFGAJEIu"
+ANFGAJEIu.Parent = GNuileg
+ANFGAJEIu.BackgroundColor3 = Color3.new(0.490196, 0.490196, 0.490196)
+ANFGAJEIu.BorderSizePixel = 0
+ANFGAJEIu.Position = UDim2.new(0.0588282645, 0, 0.0703648776, 0)
+ANFGAJEIu.Size = UDim2.new(0, 200, 0, 23)
+ANFGAJEIu.Font = Enum.Font.SourceSans
+ANFGAJEIu.Text = "Inmate"
+ANFGAJEIu.TextColor3 = Color3.new(0, 0, 0)
+ANFGAJEIu.TextSize = 14
+
+AGOIjhrgiu.Name = "AGOIjhrgiu"
+AGOIjhrgiu.Parent = GNuileg
+AGOIjhrgiu.BackgroundColor3 = Color3.new(0.490196, 0.490196, 0.490196)
+AGOIjhrgiu.BorderSizePixel = 0
+AGOIjhrgiu.Position = UDim2.new(0.0588282645, 0, 0.231981039, 0)
+AGOIjhrgiu.Size = UDim2.new(0, 200, 0, 23)
+AGOIjhrgiu.Font = Enum.Font.SourceSans
+AGOIjhrgiu.Text = "Police"
+AGOIjhrgiu.TextColor3 = Color3.new(0, 0, 0)
+AGOIjhrgiu.TextSize = 14
+
+VMAGSu.Name = "VMAGSu"
+VMAGSu.Parent = GNuileg
+VMAGSu.BackgroundColor3 = Color3.new(0.490196, 0.490196, 0.490196)
+VMAGSu.BorderSizePixel = 0
+VMAGSu.Position = UDim2.new(0.0590000004, 0, 0.383737385, 0)
+VMAGSu.Size = UDim2.new(0, 200, 0, 23)
+VMAGSu.Font = Enum.Font.SourceSans
+VMAGSu.Text = "Criminal"
+VMAGSu.TextColor3 = Color3.new(0, 0, 0)
+VMAGSu.TextSize = 14
+
+Pglkisd.Name = "Pglkçisd"
+Pglkisd.Parent = GNuileg
+Pglkisd.BackgroundColor3 = Color3.new(0.490196, 0.490196, 0.490196)
+Pglkisd.BorderSizePixel = 0
+Pglkisd.Position = UDim2.new(0.0588282645, 0, 0.535011351, 0)
+Pglkisd.Size = UDim2.new(0, 200, 0, 23)
+Pglkisd.Font = Enum.Font.SourceSans
+Pglkisd.Text = "Neutral"
+Pglkisd.TextColor3 = Color3.new(0, 0, 0)
+Pglkisd.TextSize = 14
+
+AGiojdfh.Name = "AGioçjdfh"
+AGiojdfh.Parent = fgAPGdfhioj
+AGiojdfh.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+AGiojdfh.BorderSizePixel = 0
+AGiojdfh.Position = UDim2.new(1, 0, 0, 0)
+AGiojdfh.Size = UDim2.new(0, 228, 0, 198)
+AGiojdfh.Visible = false
+
+cvxbesGIo.Name = "cvxbesGIo"
+cvxbesGIo.Parent = AGiojdfh
+cvxbesGIo.BackgroundColor3 = Color3.new(0.490196, 0.490196, 0.490196)
+cvxbesGIo.BorderSizePixel = 0
+cvxbesGIo.Position = UDim2.new(0.0588282645, 0, 0.0703648776, 0)
+cvxbesGIo.Size = UDim2.new(0, 200, 0, 23)
+cvxbesGIo.Font = Enum.Font.SourceSans
+cvxbesGIo.Text = "Give Guns"
+cvxbesGIo.TextColor3 = Color3.new(0, 0, 0)
+cvxbesGIo.TextSize = 14
+
+agEBHgyg.Name = "agEBHgyg"
+agEBHgyg.Parent = AGiojdfh
+agEBHgyg.BackgroundColor3 = Color3.new(0.490196, 0.490196, 0.490196)
+agEBHgyg.BorderSizePixel = 0
+agEBHgyg.Position = UDim2.new(0.0590000004, 0, 0.181878775, 0)
+agEBHgyg.Size = UDim2.new(0, 200, 0, 23)
+agEBHgyg.Font = Enum.Font.SourceSans
+agEBHgyg.Text = "IY"
+agEBHgyg.TextColor3 = Color3.new(0, 0, 0)
+agEBHgyg.TextSize = 14
+
+vmoigjg.Name = "vmoigjg"
+vmoigjg.Parent = AGiojdfh
+vmoigjg.BackgroundColor3 = Color3.new(0.490196, 0.490196, 0.490196)
+vmoigjg.BorderSizePixel = 0
+vmoigjg.Position = UDim2.new(0.0590000004, 0, 0.297373742, 0)
+vmoigjg.Size = UDim2.new(0, 200, 0, 23)
+vmoigjg.Font = Enum.Font.SourceSans
+vmoigjg.Text = "Kill All"
+vmoigjg.TextColor3 = Color3.new(0, 0, 0)
+vmoigjg.TextSize = 14
+
+bnzdghi.Name = "bnzdghi"
+bnzdghi.Parent = AGiojdfh
+bnzdghi.BackgroundColor3 = Color3.new(0.490196, 0.490196, 0.490196)
+bnzdghi.BorderSizePixel = 0
+bnzdghi.Position = UDim2.new(0.0590000004, 0, 0.413535386, 0)
+bnzdghi.Size = UDim2.new(0, 200, 0, 23)
+bnzdghi.Font = Enum.Font.SourceSans
+bnzdghi.Text = "Taser Bypass"
+bnzdghi.TextColor3 = Color3.new(0, 0, 0)
+bnzdghi.TextSize = 14
+
+oneGIOGJHSg.Name = "oneGIOGJHSg"
+oneGIOGJHSg.Parent = AGiojdfh
+oneGIOGJHSg.BackgroundColor3 = Color3.new(0.490196, 0.490196, 0.490196)
+oneGIOGJHSg.BorderSizePixel = 0
+oneGIOGJHSg.Position = UDim2.new(0.0590000004, 0, 0.52464658, 0)
+oneGIOGJHSg.Size = UDim2.new(0, 200, 0, 23)
+oneGIOGJHSg.Font = Enum.Font.SourceSans
+oneGIOGJHSg.Text = "One Punch"
+oneGIOGJHSg.TextColor3 = Color3.new(0, 0, 0)
+oneGIOGJHSg.TextSize = 14
+
+godLOLGKAIOFGk.Name = "godLOLGKAIOFGk"
+godLOLGKAIOFGk.Parent = AGiojdfh
+godLOLGKAIOFGk.BackgroundColor3 = Color3.new(0.490196, 0.490196, 0.490196)
+godLOLGKAIOFGk.BorderSizePixel = 0
+godLOLGKAIOFGk.Position = UDim2.new(0.0590000004, 0, 0.640808225, 0)
+godLOLGKAIOFGk.Size = UDim2.new(0, 200, 0, 23)
+godLOLGKAIOFGk.Font = Enum.Font.SourceSans
+godLOLGKAIOFGk.Text = "God Mode"
+godLOLGKAIOFGk.TextColor3 = Color3.new(0, 0, 0)
+godLOLGKAIOFGk.TextSize = 14
+
+Ngmdhi.Name = "Ngmdhi"
+Ngmdhi.Parent = fgAPGdfhioj
+Ngmdhi.BackgroundColor3 = Color3.new(0.490196, 0.490196, 0.490196)
+Ngmdhi.BorderSizePixel = 0
+Ngmdhi.Position = UDim2.new(0.0412844047, 0, 0.527796626, 0)
+Ngmdhi.Size = UDim2.new(0, 200, 0, 23)
+Ngmdhi.Font = Enum.Font.SourceSans
+Ngmdhi.Text = "Chat"
+Ngmdhi.TextColor3 = Color3.new(0, 0, 0)
+Ngmdhi.TextSize = 14
+
+GiornoGiovanna.Name = "GiornoGiovanna"
+GiornoGiovanna.Parent = fgAPGdfhioj
+GiornoGiovanna.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+GiornoGiovanna.BorderSizePixel = 0
+GiornoGiovanna.Position = UDim2.new(1.00000012, 0, 0, 0)
+GiornoGiovanna.Size = UDim2.new(0, 228, 0, 110)
+GiornoGiovanna.Visible = false
+
+cvxbesGIo_2.Name = "cvxbesGIo"
+cvxbesGIo_2.Parent = GiornoGiovanna
+cvxbesGIo_2.BackgroundColor3 = Color3.new(0.490196, 0.490196, 0.490196)
+cvxbesGIo_2.BorderSizePixel = 0
+cvxbesGIo_2.Position = UDim2.new(0.0588282645, 0, 0.115819424, 0)
+cvxbesGIo_2.Size = UDim2.new(0, 200, 0, 23)
+cvxbesGIo_2.Font = Enum.Font.SourceSans
+cvxbesGIo_2.Text = "NullBox Chat Spam"
+cvxbesGIo_2.TextColor3 = Color3.new(0, 0, 0)
+cvxbesGIo_2.TextSize = 14
+
+gay.Name = "gay"
+gay.Parent = GiornoGiovanna
+gay.BackgroundColor3 = Color3.new(0.490196, 0.490196, 0.490196)
+gay.BorderSizePixel = 0
+gay.Position = UDim2.new(0.0588282645, 0, 0.315819442, 0)
+gay.Size = UDim2.new(0, 200, 0, 23)
+gay.Font = Enum.Font.SourceSans
+gay.Text = "Chat Copier"
+gay.TextColor3 = Color3.new(0, 0, 0)
+gay.TextSize = 14
+-- Scripts:
+function SCRIPT_SVFK75_FAKESCRIPT() -- ogfgioAFi.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = ogfgioAFi
+	script.Parent.MouseButton1Click:Connect(function()
+	script.Parent.Parent.GNuileg.Visible = not script.Parent.Parent.GNuileg.Visible
+	script.Parent.Parent["AGioçjdfh"].Visible = false
+	script.Parent.Parent.GiornoGiovanna.Visible = false
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_SVFK75_FAKESCRIPT))
+function SCRIPT_BKJH90_FAKESCRIPT() -- pGiwufAfg.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = pGiwufAfg
+	script.Parent.MouseButton1Click:Connect(function()
+	script.Parent.Parent.GNuileg.Visible = false
+	script.Parent.Parent["AGioçjdfh"].Visible = not script.Parent.Parent["AGioçjdfh"].Visible
+	script.Parent.Parent.GiornoGiovanna.Visible = false
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_BKJH90_FAKESCRIPT))
+function SCRIPT_NVAM73_FAKESCRIPT() -- ANFGAJEIu.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = ANFGAJEIu
+	script.Parent.MouseButton1Click:Connect(function()
+		workspace.Remote.TeamEvent:FireServer("Bright orange")
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_NVAM73_FAKESCRIPT))
+function SCRIPT_PNOW83_FAKESCRIPT() -- AGOIjhrgiu.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = AGOIjhrgiu
+	script.Parent.MouseButton1Click:Connect(function()
+		workspace.Remote.TeamEvent:FireServer("Bright blue")
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_PNOW83_FAKESCRIPT))
+function SCRIPT_DIIX89_FAKESCRIPT() -- VMAGSu.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = VMAGSu
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-976.125183, 109.123924, 2059.99536)
+	 
+	wait(0.3)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(918.77,100,2379.07)
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_DIIX89_FAKESCRIPT))
+function SCRIPT_FZKE65_FAKESCRIPT() -- Pglkisd.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = Pglkisd
+	script.Parent.MouseButton1Click:Connect(function()
+	workspace.Remote.TeamEvent:FireServer("Medium stone grey")
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_FZKE65_FAKESCRIPT))
+function SCRIPT_UJIB77_FAKESCRIPT() -- cvxbesGIo.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = cvxbesGIo
+	script.Parent.MouseButton1Click:Connect(function()
+	for i,v in pairs(workspace.Prison_ITEMS.giver:GetChildren()) do
+	workspace.Remote.ItemHandler:InvokeServer(v.ITEMPICKUP)
+	end
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_UJIB77_FAKESCRIPT))
+function SCRIPT_OHYG69_FAKESCRIPT() -- agEBHgyg.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = agEBHgyg
+	function IY()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/tzTXmYf2'),true))()
+	end
+	
+	script.Parent.MouseButton1Click:Connect(IY)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_OHYG69_FAKESCRIPT))
+function SCRIPT_SFYG65_FAKESCRIPT() -- vmoigjg.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = vmoigjg
+	function wee()
+	workspace.Remote.TeamEvent:FireServer("Medium stone grey")
+	 
+	game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["Remington 870"].ITEMPICKUP)
+	 
+	wait(0.5)
+	function kill(a)
+	local A_1 =
+	{
+	[1] =
+	{
+	["RayObject"] = Ray.new(Vector3.new(845.555908, 101.429337, 2269.43945), Vector3.new(-391.152252, 8.65560055, -83.2166901)),
+	["Distance"] = 3.2524313926697,
+	["Cframe"] = CFrame.new(840.310791, 101.334137, 2267.87988, 0.0636406094, 0.151434347, -0.986416459, 0, 0.988420188, 0.151741937, 0.997972965, -0.00965694897, 0.0629036576),
+	["Hit"] = a.Character.Head
+	},
+	  [2] =
+	{
+	["RayObject"] = Ray.new(Vector3.new(845.555908, 101.429337, 2269.43945), Vector3.new(-392.481476, -8.44939327, -76.7261353)),
+	["Distance"] = 3.2699294090271,
+	["Cframe"] = CFrame.new(840.290466, 101.184189, 2267.93506, 0.0964837447, 0.0589403138, -0.993587971, 4.65661287e-10, 0.998245299, 0.0592165813, 0.995334625, -0.00571343815, 0.0963144377),
+	["Hit"] = a.Character.Head
+	},
+	[3] =
+	{
+	["RayObject"] = Ray.new(Vector3.new(845.555908, 101.429337, 2269.43945), Vector3.new(-389.21701, -2.50536323, -92.2163162)),
+	["Distance"] = 3.1665518283844,
+	["Cframe"] = CFrame.new(840.338867, 101.236496, 2267.80371, 0.0166504811, 0.0941716284, -0.995416701, 1.16415322e-10, 0.995554805, 0.0941846818, 0.999861419, -0.00156822044, 0.0165764652),
+	["Hit"] = a.Character.Head
+	},
+	[4] =
+	{
+	["RayObject"] = Ray.new(Vector3.new(845.555908, 101.429337, 2269.43945), Vector3.new(-393.353973, 3.13988972, -72.5452042)),
+	["Distance"] = 3.3218522071838,
+	["Cframe"] = CFrame.new(840.277222, 101.285957, 2267.9707, 0.117109694, 0.118740402, -0.985994935, -1.86264515e-09, 0.992826641, 0.119563118, 0.993119001, -0.0140019981, 0.116269611),
+	["Hit"] = a.Character.Head
+	},
+	[5] =
+	{
+	["RayObject"] = Ray.new(Vector3.new(845.555908, 101.429337, 2269.43945), Vector3.new(-390.73172, 3.2097764, -85.5477524)),
+	["Distance"] = 3.222757101059,
+	["Cframe"] = CFrame.new(840.317993, 101.286423, 2267.86035, 0.0517584644, 0.123365127, -0.991010666, 0, 0.992340803, 0.123530701, 0.99865967, -0.00639375951, 0.0513620302),
+	["Hit"] = a.Character.Head
+	}
+	}
+	local A_2 = game.Players.LocalPlayer.Backpack["Remington 870"]
+	local Event = game:GetService("ReplicatedStorage").ShootEvent
+	Event:FireServer(A_1, A_2)
+	Event:FireServer(A_1, A_2)
+	end
+	 
+	for i,v in pairs(game.Players:GetChildren())do
+	if v.Name ~= game.Players.LocalPlayer.Name then
+	kill(v)
+	end
+	end
+	wait(1)
+	workspace.Remote.TeamEvent:FireServer("Bright orange")
+	end
+	script.Parent.MouseButton1Click:Connect(wee)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_SFYG65_FAKESCRIPT))
+function SCRIPT_EMVP68_FAKESCRIPT() -- bnzdghi.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = bnzdghi
+	function wee()
+	game.Players.LocalPlayer.Character.ClientInputHandler.Disabled = true
+	  game.Players.LocalPlayer.CharacterAdded:connect(function()
+	  game.Workspace:WaitForChild(game.Players.LocalPlayer.Name)
+	  game.Players.LocalPlayer.Character.ClientInputHandler.Disabled = true
+	end)
+	end
+	
+	script.Parent.MouseButton1Click:Connect(wee)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_EMVP68_FAKESCRIPT))
+function SCRIPT_REWR77_FAKESCRIPT() -- oneGIOGJHSg.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = oneGIOGJHSg
+	script.Parent.MouseButton1Click:Connect(function()
+	mainRemotes = game.ReplicatedStorage
+	meleeRemote = mainRemotes['meleeEvent']
+	mouse = game.Players.LocalPlayer:GetMouse()
+	punching = false
+	cooldown = false
+	
+	function punch()
+	cooldown = true
+	local part = Instance.new("Part", game.Players.LocalPlayer.Character)
+	part.Transparency = 1
+	part.Size = Vector3.new(5, 2, 3)
+	part.CanCollide = false
+	local w1 = Instance.new("Weld", part)
+	w1.Part0 = game.Players.LocalPlayer.Character.Torso
+	w1.Part1 = part
+	w1.C1 = CFrame.new(0,0,2)
+	part.Touched:connect(function(hit)
+	if game.Players:FindFirstChild(hit.Parent.Name) then
+	local plr = game.Players:FindFirstChild(hit.Parent.Name)
+	if plr.Name ~= game.Players.LocalPlayer.Name then
+	part:Destroy()
+	
+	for i = 1,100 do
+	meleeRemote:FireServer(plr)
+	end
+	end
+	end
+	end)
+	
+	wait(1)
+	cooldown = false
+	part:Destroy()
+	end
+	
+	
+	mouse.KeyDown:connect(function(key)
+	if cooldown == false then
+	if key:lower() == "f" then
+	
+	punch()
+	
+	end
+	end
+	end)
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_REWR77_FAKESCRIPT))
+function SCRIPT_KFXB82_FAKESCRIPT() -- godLOLGKAIOFGk.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = godLOLGKAIOFGk
+	script.Parent.MouseButton1Click:Connect(function()
+	while wait(.3) do 
+		if game.Players.LocalPlayer.Character.Humanoid.Health < 99 then 
+			local lastPos = game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").position
+			local plr = game.Players.LocalPlayer.Name
+			local gayevent = game:GetService("Workspace").Remote.loadchar
+			gayevent:InvokeServer(plr)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(lastPos)
+			for i,v in pairs(workspace.Prison_ITEMS.giver:GetChildren()) do
+			workspace.Remote.ItemHandler:InvokeServer(v.ITEMPICKUP)
+			end
+		end
+	end
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_KFXB82_FAKESCRIPT))
+function SCRIPT_QZUM78_FAKESCRIPT() -- Ngmdhi.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = Ngmdhi
+	script.Parent.MouseButton1Click:Connect(function()
+	script.Parent.Parent.GNuileg.Visible = false
+	script.Parent.Parent["AGioçjdfh"].Visible = false
+	script.Parent.Parent.GiornoGiovanna.Visible = not script.Parent.Parent.GiornoGiovanna.Visible
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_QZUM78_FAKESCRIPT))
+function SCRIPT_ARYF82_FAKESCRIPT() -- cvxbesGIo_2.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = cvxbesGIo_2
+	_G.NillBoxChatSpam = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+	_G.NillBoxChatSpam = not _G.NillBoxChatSpam
+	while _G.NillBoxChatSpam == true do
+	function chat(text)
+		game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(text,"All")
+	end
+	chat("NullBox - You want get good? So get NullBox!")
+	wait(2.5)
+	chat("NullBox - The entire server watching my skill, you can have it too! Get NullBox!")
+	wait(2.5)
+	chat("NullBox - Get good today! Get NullBox")
+	wait(2.5)
+	chat("NullBox - Best Prison Life Cheat! What are you waiting for?! Get NullBox today!")
+	end
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_ARYF82_FAKESCRIPT))
+function SCRIPT_KMUN78_FAKESCRIPT() -- gay.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = gay
+	_G.Copy = false
+	script.Parent.MouseButton1Click:Connect(function()
+	_G.Copy = not _G.Copy
+	end)
+	
+	while _G.Copy == true do
+	local Action = game:service'Players':GetPlayers()
+	  for i = 1,#Action do
+	Action[i].Chatted:connect(function(Message)
+	  game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("".."["..Action[i].Name.."]".." "..Message, "All")
+	  end)
+	end
+	end
+
+end
+coroutine.resume(coroutine.create(SCRIPT_KMUN78_FAKESCRIPT))
+function SCRIPT_YFZP86_FAKESCRIPT() -- Chat.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = Chat
+	script.Parent.fgAPGdfhioj.Draggable = true
+
+end
+coroutine.resume(coroutine.create(SCRIPT_YFZP86_FAKESCRIPT))
+function SCRIPT_YTWX73_FAKESCRIPT() -- Chat.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = Chat
+	local UIS = game:GetService("UserInputService")
+	
+	UIS.InputBegan:Connect(function(input,gameProc)
+	if not gameProc then
+	if input.KeyCode == Enum.KeyCode.Delete then
+	script.Parent.fgAPGdfhioj.Visible = not script.Parent.fgAPGdfhioj.Visible
+	end
+	end
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_YTWX73_FAKESCRIPT))
