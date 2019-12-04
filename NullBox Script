@@ -1,6 +1,3 @@
--- Farewell Infortality.
--- Version: 2.82
--- Instances:
 local Chat = Instance.new("ScreenGui")
 local fgAPGdfhioj = Instance.new("Frame")
 local ogfgioAFi = Instance.new("TextButton")
@@ -21,7 +18,7 @@ local Ngmdhi = Instance.new("TextButton")
 local GiornoGiovanna = Instance.new("Frame")
 local cvxbesGIo_2 = Instance.new("TextButton")
 local gay = Instance.new("TextButton")
---Properties:
+
 Chat.Name = "Chat"
 Chat.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 Chat.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
