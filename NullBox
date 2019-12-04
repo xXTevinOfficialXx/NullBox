@@ -561,6 +561,7 @@ function SCRIPT_LNST69_FAKESCRIPT() -- cvxbesGIo_2.LocalScript
 	function chat(text)
 		game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(text,"All")
 	end
+	wait(2.5)
 	chat("NullBox - You want get good? So get NullBox!")
 	wait(2.5)
 	chat("NullBox - The entire server watching my skill, you can have it too! Get NullBox!")
