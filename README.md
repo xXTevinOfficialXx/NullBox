@@ -3,7 +3,7 @@
 This project couldn't be possible if Jake11price and everyone that created GUIs for Prison Life didn't make a GUI / Script for it
 
 ## Loadstring:
-## loadstring(game:HttpGet("https://raw.githubusercontent.com/xXTevinOfficialXx/NullBox/master/NullBox%20Script%22,true))()
+## loadstring(game:HttpGet("https://raw.githubusercontent.com/xXTevinOfficialXx/NullBox/master/NullBox%20Script%22",true))()
 
 This Features
 
