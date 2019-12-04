@@ -1,30 +1,4 @@
 do
-  local inv256
-
-  function encode(str)
-    if not inv256 then
-      inv256 = {}
-      for M = 0, 127 do
-        local inv = -1
-        repeat inv = inv + 2
-        until inv * (2*M + 1) % 256 == 1
-        inv256[M] = inv
-      end
-    end
-    local K, F = 8186484168865098, 16384 + 4887
-    return (str:gsub('.',
-      function(m)
-        local L = K % 274877906944  -- 2^38
-        local H = (K - L) / 274877906944
-        local M = H % 128
-        m = m:byte()
-        local c = (m * inv256[M] - (H - M) / 128) % 256
-        K = L * F + H + c + m
-        return ('%02x'):format(c)
-      end
-    ))
-  end
-
   function decode(str)
     local K, F = 8186484168865098, 16384 + 4887
     return (str:gsub('%x%x',
