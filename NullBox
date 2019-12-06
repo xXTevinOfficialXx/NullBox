@@ -717,7 +717,7 @@ function SCRIPT_ZJQM84_FAKESCRIPT() -- cvxbesGIo_4.LocalScript
 	
 	game:GetService('RunService').RenderStepped:connect(function()
 	if _G.Disabled then
-	for i,v in pairs(game.Teams["Prisoner"]:GetPlayers()) do
+	for i,v in pairs(game.Teams["Inmate"]:GetPlayers()) do
 	if v.Name ~= game:GetService('Players').LocalPlayer.Name then
 	pcall(function()
 	v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize)
