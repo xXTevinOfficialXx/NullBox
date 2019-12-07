@@ -359,7 +359,7 @@ cvxbesGIo_6.Text = "Hitbox extender size change"
 cvxbesGIo_6.TextColor3 = Color3.new(1, 1, 1)
 cvxbesGIo_6.TextSize = 14
 -- Scripts:
-function SCRIPT_LBBO68_FAKESCRIPT() -- ANFGAJEIu.LocalScript 
+function SCRIPT_CMVQ68_FAKESCRIPT() -- ANFGAJEIu.LocalScript 
 	local script = Instance.new('LocalScript')
 	script.Parent = ANFGAJEIu
 	script.Parent.MouseButton1Click:Connect(function()
@@ -367,8 +367,8 @@ function SCRIPT_LBBO68_FAKESCRIPT() -- ANFGAJEIu.LocalScript
 	end)
 
 end
-coroutine.resume(coroutine.create(SCRIPT_LBBO68_FAKESCRIPT))
-function SCRIPT_EQVP70_FAKESCRIPT() -- AGOIjhrgiu.LocalScript 
+coroutine.resume(coroutine.create(SCRIPT_CMVQ68_FAKESCRIPT))
+function SCRIPT_UVKV75_FAKESCRIPT() -- AGOIjhrgiu.LocalScript 
 	local script = Instance.new('LocalScript')
 	script.Parent = AGOIjhrgiu
 	script.Parent.MouseButton1Click:Connect(function()
@@ -376,8 +376,8 @@ function SCRIPT_EQVP70_FAKESCRIPT() -- AGOIjhrgiu.LocalScript
 	end)
 
 end
-coroutine.resume(coroutine.create(SCRIPT_EQVP70_FAKESCRIPT))
-function SCRIPT_IIXH74_FAKESCRIPT() -- VMAGSu.LocalScript 
+coroutine.resume(coroutine.create(SCRIPT_UVKV75_FAKESCRIPT))
+function SCRIPT_SHCZ74_FAKESCRIPT() -- VMAGSu.LocalScript 
 	local script = Instance.new('LocalScript')
 	script.Parent = VMAGSu
 	script.Parent.MouseButton1Click:Connect(function()
@@ -388,8 +388,8 @@ function SCRIPT_IIXH74_FAKESCRIPT() -- VMAGSu.LocalScript
 	end)
 
 end
-coroutine.resume(coroutine.create(SCRIPT_IIXH74_FAKESCRIPT))
-function SCRIPT_YHJK87_FAKESCRIPT() -- Pglkisd.LocalScript 
+coroutine.resume(coroutine.create(SCRIPT_SHCZ74_FAKESCRIPT))
+function SCRIPT_JWJC89_FAKESCRIPT() -- Pglkisd.LocalScript 
 	local script = Instance.new('LocalScript')
 	script.Parent = Pglkisd
 	script.Parent.MouseButton1Click:Connect(function()
@@ -397,8 +397,8 @@ function SCRIPT_YHJK87_FAKESCRIPT() -- Pglkisd.LocalScript
 	end)
 
 end
-coroutine.resume(coroutine.create(SCRIPT_YHJK87_FAKESCRIPT))
-function SCRIPT_LTSY86_FAKESCRIPT() -- cvxbesGIo.LocalScript 
+coroutine.resume(coroutine.create(SCRIPT_JWJC89_FAKESCRIPT))
+function SCRIPT_EJFD73_FAKESCRIPT() -- cvxbesGIo.LocalScript 
 	local script = Instance.new('LocalScript')
 	script.Parent = cvxbesGIo
 	_G.NillBoxChatSpam = false
@@ -420,8 +420,8 @@ function SCRIPT_LTSY86_FAKESCRIPT() -- cvxbesGIo.LocalScript
 	end)
 
 end
-coroutine.resume(coroutine.create(SCRIPT_LTSY86_FAKESCRIPT))
-function SCRIPT_CEWC69_FAKESCRIPT() -- OUNOU.LocalScript 
+coroutine.resume(coroutine.create(SCRIPT_EJFD73_FAKESCRIPT))
+function SCRIPT_JCFU67_FAKESCRIPT() -- OUNOU.LocalScript 
 	local script = Instance.new('LocalScript')
 	script.Parent = OUNOU
 	_G.Copy = false
@@ -439,8 +439,8 @@ function SCRIPT_CEWC69_FAKESCRIPT() -- OUNOU.LocalScript
 	end
 
 end
-coroutine.resume(coroutine.create(SCRIPT_CEWC69_FAKESCRIPT))
-function SCRIPT_ZYPZ71_FAKESCRIPT() -- ANFGAJEIu_2.LocalScript 
+coroutine.resume(coroutine.create(SCRIPT_JCFU67_FAKESCRIPT))
+function SCRIPT_RLXW66_FAKESCRIPT() -- ANFGAJEIu_2.LocalScript 
 	local script = Instance.new('LocalScript')
 	script.Parent = ANFGAJEIu_2
 	script.Parent.MouseButton1Click:Connect(function()
@@ -448,8 +448,8 @@ function SCRIPT_ZYPZ71_FAKESCRIPT() -- ANFGAJEIu_2.LocalScript
 	end)
 
 end
-coroutine.resume(coroutine.create(SCRIPT_ZYPZ71_FAKESCRIPT))
-function SCRIPT_XLQF85_FAKESCRIPT() -- AGOIjhrgiu_2.LocalScript 
+coroutine.resume(coroutine.create(SCRIPT_RLXW66_FAKESCRIPT))
+function SCRIPT_ZQQU81_FAKESCRIPT() -- AGOIjhrgiu_2.LocalScript 
 	local script = Instance.new('LocalScript')
 	script.Parent = AGOIjhrgiu_2
 	script.Parent.MouseButton1Click:Connect(function()
@@ -457,8 +457,8 @@ function SCRIPT_XLQF85_FAKESCRIPT() -- AGOIjhrgiu_2.LocalScript
 	end)
 
 end
-coroutine.resume(coroutine.create(SCRIPT_XLQF85_FAKESCRIPT))
-function SCRIPT_ZBNU68_FAKESCRIPT() -- VMAGSu_2.LocalScript 
+coroutine.resume(coroutine.create(SCRIPT_ZQQU81_FAKESCRIPT))
+function SCRIPT_RZKS68_FAKESCRIPT() -- VMAGSu_2.LocalScript 
 	local script = Instance.new('LocalScript')
 	script.Parent = VMAGSu_2
 	script.Parent.MouseButton1Click:Connect(function()
@@ -466,8 +466,8 @@ function SCRIPT_ZBNU68_FAKESCRIPT() -- VMAGSu_2.LocalScript
 	end)
 
 end
-coroutine.resume(coroutine.create(SCRIPT_ZBNU68_FAKESCRIPT))
-function SCRIPT_WTNX90_FAKESCRIPT() -- pGiwufAfg.LocalScript 
+coroutine.resume(coroutine.create(SCRIPT_RZKS68_FAKESCRIPT))
+function SCRIPT_JSKY71_FAKESCRIPT() -- pGiwufAfg.LocalScript 
 	local script = Instance.new('LocalScript')
 	script.Parent = pGiwufAfg
 	script.Parent.MouseButton1Click:Connect(function()
@@ -478,8 +478,8 @@ function SCRIPT_WTNX90_FAKESCRIPT() -- pGiwufAfg.LocalScript
 	end)
 
 end
-coroutine.resume(coroutine.create(SCRIPT_WTNX90_FAKESCRIPT))
-function SCRIPT_ZDAR68_FAKESCRIPT() -- ogfgioAFi.LocalScript 
+coroutine.resume(coroutine.create(SCRIPT_JSKY71_FAKESCRIPT))
+function SCRIPT_MVCR87_FAKESCRIPT() -- ogfgioAFi.LocalScript 
 	local script = Instance.new('LocalScript')
 	script.Parent = ogfgioAFi
 	script.Parent.MouseButton1Click:Connect(function()
@@ -490,8 +490,8 @@ function SCRIPT_ZDAR68_FAKESCRIPT() -- ogfgioAFi.LocalScript
 	end)
 
 end
-coroutine.resume(coroutine.create(SCRIPT_ZDAR68_FAKESCRIPT))
-function SCRIPT_KCRK67_FAKESCRIPT() -- ofjsg.LocalScript 
+coroutine.resume(coroutine.create(SCRIPT_MVCR87_FAKESCRIPT))
+function SCRIPT_EKKA89_FAKESCRIPT() -- ofjsg.LocalScript 
 	local script = Instance.new('LocalScript')
 	script.Parent = ofjsg
 	script.Parent.MouseButton1Click:Connect(function()
@@ -502,8 +502,8 @@ function SCRIPT_KCRK67_FAKESCRIPT() -- ofjsg.LocalScript
 	end)
 
 end
-coroutine.resume(coroutine.create(SCRIPT_KCRK67_FAKESCRIPT))
-function SCRIPT_PAJQ89_FAKESCRIPT() -- Ngmdhi.LocalScript 
+coroutine.resume(coroutine.create(SCRIPT_EKKA89_FAKESCRIPT))
+function SCRIPT_OCTO82_FAKESCRIPT() -- Ngmdhi.LocalScript 
 	local script = Instance.new('LocalScript')
 	script.Parent = Ngmdhi
 	script.Parent.MouseButton1Click:Connect(function()
@@ -514,8 +514,8 @@ function SCRIPT_PAJQ89_FAKESCRIPT() -- Ngmdhi.LocalScript
 	end)
 
 end
-coroutine.resume(coroutine.create(SCRIPT_PAJQ89_FAKESCRIPT))
-function SCRIPT_VFFK87_FAKESCRIPT() -- cvxbesGIo_2.LocalScript 
+coroutine.resume(coroutine.create(SCRIPT_OCTO82_FAKESCRIPT))
+function SCRIPT_PFHE89_FAKESCRIPT() -- cvxbesGIo_2.LocalScript 
 	local script = Instance.new('LocalScript')
 	script.Parent = cvxbesGIo_2
 	script.Parent.MouseButton1Click:Connect(function()
@@ -525,8 +525,8 @@ function SCRIPT_VFFK87_FAKESCRIPT() -- cvxbesGIo_2.LocalScript
 	end)
 
 end
-coroutine.resume(coroutine.create(SCRIPT_VFFK87_FAKESCRIPT))
-function SCRIPT_SIUY69_FAKESCRIPT() -- agEBHgyg.LocalScript 
+coroutine.resume(coroutine.create(SCRIPT_PFHE89_FAKESCRIPT))
+function SCRIPT_GTHE69_FAKESCRIPT() -- agEBHgyg.LocalScript 
 	local script = Instance.new('LocalScript')
 	script.Parent = agEBHgyg
 	function IY()
@@ -536,8 +536,8 @@ function SCRIPT_SIUY69_FAKESCRIPT() -- agEBHgyg.LocalScript
 	script.Parent.MouseButton1Click:Connect(IY)
 
 end
-coroutine.resume(coroutine.create(SCRIPT_SIUY69_FAKESCRIPT))
-function SCRIPT_UAZF79_FAKESCRIPT() -- vmoigjg.LocalScript 
+coroutine.resume(coroutine.create(SCRIPT_GTHE69_FAKESCRIPT))
+function SCRIPT_JRGW67_FAKESCRIPT() -- vmoigjg.LocalScript 
 	local script = Instance.new('LocalScript')
 	script.Parent = vmoigjg
 	function wee()
@@ -602,8 +602,8 @@ function SCRIPT_UAZF79_FAKESCRIPT() -- vmoigjg.LocalScript
 	script.Parent.MouseButton1Click:Connect(wee)
 
 end
-coroutine.resume(coroutine.create(SCRIPT_UAZF79_FAKESCRIPT))
-function SCRIPT_QXHS74_FAKESCRIPT() -- bnzdghi.LocalScript 
+coroutine.resume(coroutine.create(SCRIPT_JRGW67_FAKESCRIPT))
+function SCRIPT_BOAF90_FAKESCRIPT() -- bnzdghi.LocalScript 
 	local script = Instance.new('LocalScript')
 	script.Parent = bnzdghi
 	function wee()
@@ -617,8 +617,8 @@ function SCRIPT_QXHS74_FAKESCRIPT() -- bnzdghi.LocalScript
 	script.Parent.MouseButton1Click:Connect(wee)
 
 end
-coroutine.resume(coroutine.create(SCRIPT_QXHS74_FAKESCRIPT))
-function SCRIPT_OROO72_FAKESCRIPT() -- oneGIOGJHSg.LocalScript 
+coroutine.resume(coroutine.create(SCRIPT_BOAF90_FAKESCRIPT))
+function SCRIPT_JKSU87_FAKESCRIPT() -- oneGIOGJHSg.LocalScript 
 	local script = Instance.new('LocalScript')
 	script.Parent = oneGIOGJHSg
 	script.Parent.MouseButton1Click:Connect(function()
@@ -669,8 +669,8 @@ function SCRIPT_OROO72_FAKESCRIPT() -- oneGIOGJHSg.LocalScript
 	end)
 
 end
-coroutine.resume(coroutine.create(SCRIPT_OROO72_FAKESCRIPT))
-function SCRIPT_RBCY74_FAKESCRIPT() -- godLOLGKAIOFGk.LocalScript 
+coroutine.resume(coroutine.create(SCRIPT_JKSU87_FAKESCRIPT))
+function SCRIPT_FSCI80_FAKESCRIPT() -- godLOLGKAIOFGk.LocalScript 
 	local script = Instance.new('LocalScript')
 	script.Parent = godLOLGKAIOFGk
 	script.Parent.MouseButton1Click:Connect(function()
@@ -689,8 +689,8 @@ function SCRIPT_RBCY74_FAKESCRIPT() -- godLOLGKAIOFGk.LocalScript
 	end)
 
 end
-coroutine.resume(coroutine.create(SCRIPT_RBCY74_FAKESCRIPT))
-function SCRIPT_WFFS82_FAKESCRIPT() -- ruhwrihguih.LocalScript 
+coroutine.resume(coroutine.create(SCRIPT_FSCI80_FAKESCRIPT))
+function SCRIPT_HUNV71_FAKESCRIPT() -- ruhwrihguih.LocalScript 
 	local script = Instance.new('LocalScript')
 	script.Parent = ruhwrihguih
 	script.Parent.MouseButton1Click:Connect(function()
@@ -698,8 +698,8 @@ function SCRIPT_WFFS82_FAKESCRIPT() -- ruhwrihguih.LocalScript
 	end)
 
 end
-coroutine.resume(coroutine.create(SCRIPT_WFFS82_FAKESCRIPT))
-function SCRIPT_UYKB86_FAKESCRIPT() -- cvxbesGIo_3.LocalScript 
+coroutine.resume(coroutine.create(SCRIPT_HUNV71_FAKESCRIPT))
+function SCRIPT_YNMA87_FAKESCRIPT() -- cvxbesGIo_3.LocalScript 
 	local script = Instance.new('LocalScript')
 	script.Parent = cvxbesGIo_3
 	script.Parent.MouseButton1Click:Connect(function()
@@ -730,8 +730,8 @@ function SCRIPT_UYKB86_FAKESCRIPT() -- cvxbesGIo_3.LocalScript
 	end)
 
 end
-coroutine.resume(coroutine.create(SCRIPT_UYKB86_FAKESCRIPT))
-function SCRIPT_MYMP85_FAKESCRIPT() -- cvxbesGIo_4.LocalScript 
+coroutine.resume(coroutine.create(SCRIPT_YNMA87_FAKESCRIPT))
+function SCRIPT_NYXG78_FAKESCRIPT() -- cvxbesGIo_4.LocalScript 
 	local script = Instance.new('LocalScript')
 	script.Parent = cvxbesGIo_4
 	script.Parent.MouseButton1Click:Connect(function()
@@ -762,8 +762,8 @@ function SCRIPT_MYMP85_FAKESCRIPT() -- cvxbesGIo_4.LocalScript
 	end)
 
 end
-coroutine.resume(coroutine.create(SCRIPT_MYMP85_FAKESCRIPT))
-function SCRIPT_PLHD65_FAKESCRIPT() -- cvxbesGIo_5.LocalScript 
+coroutine.resume(coroutine.create(SCRIPT_NYXG78_FAKESCRIPT))
+function SCRIPT_HAHW84_FAKESCRIPT() -- cvxbesGIo_5.LocalScript 
 	local script = Instance.new('LocalScript')
 	script.Parent = cvxbesGIo_5
 	script.Parent.MouseButton1Click:Connect(function()
@@ -794,8 +794,8 @@ function SCRIPT_PLHD65_FAKESCRIPT() -- cvxbesGIo_5.LocalScript
 	end)
 
 end
-coroutine.resume(coroutine.create(SCRIPT_PLHD65_FAKESCRIPT))
-function SCRIPT_UFRG85_FAKESCRIPT() -- cvxbesGIo_6.LocalScript 
+coroutine.resume(coroutine.create(SCRIPT_HAHW84_FAKESCRIPT))
+function SCRIPT_LDPQ78_FAKESCRIPT() -- cvxbesGIo_6.LocalScript 
 	local script = Instance.new('LocalScript')
 	script.Parent = cvxbesGIo_6
 	script.Parent.MouseButton1Click:Connect(function()
@@ -803,15 +803,15 @@ function SCRIPT_UFRG85_FAKESCRIPT() -- cvxbesGIo_6.LocalScript
 	end)
 
 end
-coroutine.resume(coroutine.create(SCRIPT_UFRG85_FAKESCRIPT))
-function SCRIPT_DBBC67_FAKESCRIPT() -- Public.LocalScript 
+coroutine.resume(coroutine.create(SCRIPT_LDPQ78_FAKESCRIPT))
+function SCRIPT_KLSO83_FAKESCRIPT() -- Public.LocalScript 
 	local script = Instance.new('LocalScript')
 	script.Parent = Public
 	script.Parent.fgAPGdfhioj.Draggable = true
 
 end
-coroutine.resume(coroutine.create(SCRIPT_DBBC67_FAKESCRIPT))
-function SCRIPT_DADM89_FAKESCRIPT() -- Public.LocalScript 
+coroutine.resume(coroutine.create(SCRIPT_KLSO83_FAKESCRIPT))
+function SCRIPT_IGHZ69_FAKESCRIPT() -- Public.LocalScript 
 	local script = Instance.new('LocalScript')
 	script.Parent = Public
 	local UIS = game:GetService("UserInputService")
@@ -825,8 +825,8 @@ function SCRIPT_DADM89_FAKESCRIPT() -- Public.LocalScript
 	end)
 
 end
-coroutine.resume(coroutine.create(SCRIPT_DADM89_FAKESCRIPT))
-function SCRIPT_TJDI78_FAKESCRIPT() -- Public.LocalScript 
+coroutine.resume(coroutine.create(SCRIPT_IGHZ69_FAKESCRIPT))
+function SCRIPT_NTIJ68_FAKESCRIPT() -- Public.LocalScript 
 	local script = Instance.new('LocalScript')
 	script.Parent = Public
 	function chat(text)
@@ -837,10 +837,12 @@ function SCRIPT_TJDI78_FAKESCRIPT() -- Public.LocalScript
 	chat("NullBox By TevinOfficial / Spy Main#0801")
 	wait(3)
 	chat("NullBox Beta v1.0.0")
+	wait(3)
+	chat("For opening / closing NullBox, press DELETE")
 
 end
-coroutine.resume(coroutine.create(SCRIPT_TJDI78_FAKESCRIPT))
-function SCRIPT_OFIN66_FAKESCRIPT() -- Public.LocalScript 
+coroutine.resume(coroutine.create(SCRIPT_NTIJ68_FAKESCRIPT))
+function SCRIPT_MIGC76_FAKESCRIPT() -- Public.LocalScript 
 	local script = Instance.new('LocalScript')
 	script.Parent = Public
 	 for i,v in pairs(game:GetService("CoreGui"):GetChildren()) do 
@@ -850,4 +852,4 @@ function SCRIPT_OFIN66_FAKESCRIPT() -- Public.LocalScript
 	end
 
 end
-coroutine.resume(coroutine.create(SCRIPT_OFIN66_FAKESCRIPT))
+coroutine.resume(coroutine.create(SCRIPT_MIGC76_FAKESCRIPT))
