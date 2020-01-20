@@ -1,19 +1,5 @@
-local function CreateInstance(cls,props)
-local inst = Instance.new(cls)
-for i,v in pairs(props) do
-	inst[i] = v
-end
-return inst
-end
-	
-local Block = CreateInstance('ScreenGui',{DisplayOrder=0,Enabled=true,ResetOnSpawn=true,Name='Block', Parent=game.CoreGui})
-local Frame = CreateInstance('Frame',{Style=Enum.FrameStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(-0.00129199028, 1, 0.914115548, 1),Rotation=0,Selectable=false,Size=UDim2.new(0, 40, 0, 42),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name = 'Frame',Parent = Block})
-local TextLabel = CreateInstance('TextLabel',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='NULLBOX IS DISCONTINUED',TextColor3=Color3.new(0, 0, 0),TextScaled=true,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.117870726, 0, 0.156756759, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 200, 0, 50),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=false,ZIndex=1,Name='TextLabel',Parent = Frame})
-local TextLabel2 = CreateInstance('TextLabel',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='PLEASE USE KRYPTON, WEBSITE COPIED INTO CLIPBOARD',TextColor3=Color3.new(0, 0, 0),TextScaled=true,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.117870726, 0, 0.427027017, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 200, 0, 50),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=false,ZIndex=1,Name='TextLabel2',Parent = Frame})
-
-Frame:TweenSize(UDim2.new(0.5,263,0.5,185),"Out","Quad",3)
-repeat wait()
-until Frame.Size == UDim2.new(0.5,263,0.5,185)
+game.StarterGui:SetCore("SendNotification",{
+Title = "Website copied to clipboard",
+Text = "NullBox is discontinued, goto Krypton, we've copied the new website to your clipboard, just Ctrl C + Ctrl V on the browser",
+})
 setclipboard("kryptonproject.mybb.us")
-wait(3)
-Frame:TweenSize(UDim2.new(0,0,0,0))
